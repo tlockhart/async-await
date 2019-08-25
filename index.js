@@ -16,9 +16,9 @@ async function main() {
     await resolveSelection(1).then(result => onSuccess(result), result => onFailure(result));
     await resolveSelection(2).then(result => onSuccess(result), result => onFailure(result));
     await resolveSelection(2).then(result => {
-        console.log(`Resolved: What the duce; Selection = ${result}`);
+        console.log(`Resolved: What the deuce; Selection = ${result}`);
     }).catch(result => {
-        console.log(`Rejected: What the duce; Selection = ${result}`);
+        console.log(`Rejected: What the deuce; Selection = ${result}`);
     });
 }
 
