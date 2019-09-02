@@ -1,8 +1,8 @@
 let getRickOrMorty = (value) => {
 
     let data = {
-        option1: 'Rick',
-        option2: 'Morty',
+        option1: 'Resolved to Rick',
+        option2: 'Rejected to Morty',
     };
     const isRickSelected = value === 1? true: false;
 
